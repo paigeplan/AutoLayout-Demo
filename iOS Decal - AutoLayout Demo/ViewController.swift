@@ -69,13 +69,11 @@ class ViewController: UIViewController {
         pin(view: stackView, toAllSidesOfView: self.view, margin: 40)
     }
     
-    
     /// Toggles the hidden property for the label when
     /// the sender is pressed
     ///
     /// - parameter sender: The button that was pressed
     func hideLabel(sender: UIButton) {
-        
         /// Animates the hiding of the view
         UIView.animate(withDuration: 1, animations: {
             self.label.isHidden = !self.label.isHidden
@@ -87,7 +85,6 @@ class ViewController: UIViewController {
          
         */
     }
-    
     
     /// Pins the view to all edges of the superview using NSLayoutAnchors
     ///
@@ -116,7 +113,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
