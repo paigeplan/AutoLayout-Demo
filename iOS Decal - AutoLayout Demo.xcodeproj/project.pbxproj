@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3C97A91DA4828000205F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3C97A81DA4828000205F2C /* AppDelegate.swift */; };
+		6C3C97AB1DA4828000205F2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3C97AA1DA4828000205F2C /* ViewController.swift */; };
+		6C3C97AE1DA4828000205F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3C97AC1DA4828000205F2C /* Main.storyboard */; };
+		6C3C97B01DA4828000205F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3C97AF1DA4828000205F2C /* Assets.xcassets */; };
+		6C3C97B31DA4828000205F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3C97B11DA4828000205F2C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C3C97A51DA4828000205F2C /* iOS Decal - AutoLayout Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Decal - AutoLayout Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3C97A81DA4828000205F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C3C97AA1DA4828000205F2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C3C97AD1DA4828000205F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C3C97AF1DA4828000205F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C3C97B21DA4828000205F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C3C97B41DA4828000205F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3C97A21DA4828000205F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C3C979C1DA4828000205F2C = {
+			isa = PBXGroup;
+			children = (
+				6C3C97A71DA4828000205F2C /* iOS Decal - AutoLayout Demo */,
+				6C3C97A61DA4828000205F2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C3C97A61DA4828000205F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C3C97A51DA4828000205F2C /* iOS Decal - AutoLayout Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C3C97A71DA4828000205F2C /* iOS Decal - AutoLayout Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6C3C97A81DA4828000205F2C /* AppDelegate.swift */,
+				6C3C97AA1DA4828000205F2C /* ViewController.swift */,
+				6C3C97AC1DA4828000205F2C /* Main.storyboard */,
+				6C3C97AF1DA4828000205F2C /* Assets.xcassets */,
+				6C3C97B11DA4828000205F2C /* LaunchScreen.storyboard */,
+				6C3C97B41DA4828000205F2C /* Info.plist */,
+			);
+			path = "iOS Decal - AutoLayout Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3C97A41DA4828000205F2C /* iOS Decal - AutoLayout Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3C97B71DA4828000205F2C /* Build configuration list for PBXNativeTarget "iOS Decal - AutoLayout Demo" */;
+			buildPhases = (
+				6C3C97A11DA4828000205F2C /* Sources */,
+				6C3C97A21DA4828000205F2C /* Frameworks */,
+				6C3C97A31DA4828000205F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Decal - AutoLayout Demo";
+			productName = "iOS Decal - AutoLayout Demo";
+			productReference = 6C3C97A51DA4828000205F2C /* iOS Decal - AutoLayout Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C3C979D1DA4828000205F2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Paige Plander";
+				TargetAttributes = {
+					6C3C97A41DA4828000205F2C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C3C97A01DA4828000205F2C /* Build configuration list for PBXProject "iOS Decal - AutoLayout Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C3C979C1DA4828000205F2C;
+			productRefGroup = 6C3C97A61DA4828000205F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C3C97A41DA4828000205F2C /* iOS Decal - AutoLayout Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3C97A31DA4828000205F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3C97B31DA4828000205F2C /* LaunchScreen.storyboard in Resources */,
+				6C3C97B01DA4828000205F2C /* Assets.xcassets in Resources */,
+				6C3C97AE1DA4828000205F2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C3C97A11DA4828000205F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3C97AB1DA4828000205F2C /* ViewController.swift in Sources */,
+				6C3C97A91DA4828000205F2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C3C97AC1DA4828000205F2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3C97AD1DA4828000205F2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C3C97B11DA4828000205F2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3C97B21DA4828000205F2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C3C97B51DA4828000205F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C3C97B61DA4828000205F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C3C97B81DA4828000205F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Decal - AutoLayout Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paigeplan.iOS-Decal---AutoLayout-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C3C97B91DA4828000205F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Decal - AutoLayout Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paigeplan.iOS-Decal---AutoLayout-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C3C97A01DA4828000205F2C /* Build configuration list for PBXProject "iOS Decal - AutoLayout Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3C97B51DA4828000205F2C /* Debug */,
+				6C3C97B61DA4828000205F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3C97B71DA4828000205F2C /* Build configuration list for PBXNativeTarget "iOS Decal - AutoLayout Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3C97B81DA4828000205F2C /* Debug */,
+				6C3C97B91DA4828000205F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C3C979D1DA4828000205F2C /* Project object */;
+}
